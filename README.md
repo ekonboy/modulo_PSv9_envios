@@ -1,4 +1,4 @@
-# Módulo Impackta para PrestaShop 9
+# Módulo envíos para PrestaShop v9
 
 Módulo de envíos para integrar una tienda PrestaShop con Impackta. El módulo crea transportistas Impackta, guarda la configuración de conexión por tienda y expone un endpoint para que Impackta pueda consultar pedidos, leer productos y actualizar estados o tracking.
 
