@@ -1,0 +1,288 @@
+@font-face{
+    font-family: "negrita";
+    src: url(../fonts/FutuBd__.ttf) format("truetype");
+}
+
+
+@font-face{
+    font-family: "cuerpo";
+    src: url(../fonts/FutuBk__.ttf) format("truetype");
+}
+
+
+body{
+    margin:0px;
+    font-family: "cuerpo", Arial, Helvetica, sans-serif;
+    color:#636365;
+    font-size:14px;
+}
+
+#ui-datepicker-div{
+    background:#444;
+    font-size: 12px;
+}
+
+
+
+input{
+    background-color: transparent;
+    outline: none;
+    height:26px;
+    padding-left:10px;
+    padding-right:10px;
+    font-family: "cuerpo", "cuerpoIE", Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.input{
+    border: 1px solid #c8c9cb;	
+}
+
+
+
+.input:focus {
+    border: 1px solid #1ac1f0;
+}
+
+
+
+.input_fecha{
+    border: 1px solid #c8c9cb;	
+    background:  url("../img/fecha.png") no-repeat 96% center;	
+    font-family: "cuerpo", "cuerpoIE", Arial, Helvetica, sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+
+.input_fecha:focus{
+    border: 1px solid #1ac1f0;
+}
+
+
+
+
+.input_buscar{
+    border: 1px solid #c8c9cb;
+    background: url("../img/lupa.png") no-repeat 98% center;	
+    font-family: "cuerpo", "cuerpoIE", Arial, Helvetica, sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+
+
+
+.input_buscar:focus{
+    border: 1px solid #1ac1f0;
+}
+
+
+
+
+
+.input_blanco{
+    border: 2px solid #FFF;
+    color:#FFF;
+    font-size:16px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+
+
+.input_blanco:focus {
+    border: 2px solid #FFF;
+}
+
+
+
+
+
+.input_blanco::placeholder {
+    color: #71D7F4;
+}
+
+
+
+
+
+.boton{
+    border: 2px solid #1ac1f0;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color:#1AC1F0;
+    cursor:pointer;
+    outline: none;
+    font-family:"cuerpo", "cuerpoIE", Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+
+
+
+
+
+.boton:hover{
+    border: 2px solid #1ac1f0;
+    background:#1ac1f0;
+    color:#FFF;
+}
+
+
+
+
+
+.boton:focus{
+    border: 2px solid #1ac1f0;
+    background:#1ac1f0;
+    color:#FFF;
+}
+
+
+
+.boton:active{
+    border: 2px solid #0d7491;
+    background:#0d7491;
+    color:#FFF;
+}
+
+
+
+.boton:disabled{
+    border: 2px solid #9fddf8;
+    background-color: transparent;
+    color:#1AC1F0;
+    cursor:default;
+}
+
+
+
+
+
+
+.boton_blanco{
+    border: 2px solid #FFF;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color:#FFF;
+    cursor:pointer;
+    outline: none;
+    font-family:"cuerpo", "cuerpoIE", Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+
+
+
+
+
+.boton_blanco:hover{
+    border: 2px solid #FFF;
+    background:#FFF;
+    color:#000;
+}
+
+
+
+
+
+
+
+
+
+.ventana{
+    background:#f0f0f1;
+    top:50%;
+    left:50%; 
+    position:fixed;
+    z-index: 4;
+    display:none;
+    padding:20px;
+}
+
+
+.ventana_titulo{
+    font-size:18px;
+    font-family:'Arial Black', Gadget, sans-serif;
+    float:left;
+    margin-bottom:20px;
+}
+
+
+
+.ventana_close{
+    float:right;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+.select{
+    border: 1px solid #c8c9cb;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-image: none;
+    background: url("../img/combobox.png") no-repeat 96% center;
+    font-family: "cuerpo", "cuerpoIE", Arial, Helvetica, sans-serif;
+    outline: none;
+    height:30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+.select:hover{
+    border: 1px solid #1ac1f0;
+}
+
+
+
+select:focus{
+    border: 1px solid #1ac1f0;
+}
+
+
+
+.titulo{
+    font-family: "negrita","negritaIE", Arial Black, Gadget, sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    width:100%;
+    float:left;
+    height: 22px;
+}
+
+
+
+.subrayado_titulo{
+    width:100%;
+    background:#A9A9AB;
+    height:2px;
+    margin-top:3px;
+    margin-bottom:18px;
+    float:left;
+}
+
+
+
+.etiqueta_apli{
+    border: 1px solid #666;
+    width: calc(50% - 2px);
+    height: 120px;
+    text-align: center;
+    float: left;
+    font-size: 50px;
+    cursor:pointer;
+    padding-top: 56px;
+}

@@ -1,0 +1,15 @@
+/app/config/parameters.php
+/config/parameters.php
+/app/config/parameters.yml
+/app/config/parameters.yml.dist
+/var/
+/vendor/
+/cache/
+/log/
+/logs/
+/img/tmp/
+/upload/
+/download/
+Thumbs.db
+*.db
+impackta_estado_log.txt

@@ -1,0 +1,11 @@
+<?xml version="2.0" encoding="UTF-8" ?>
+<module>
+	<name>impackta</name>
+	<displayName><![CDATA[Impackta]]></displayName>
+	<version><![CDATA[2.0]]></version>
+	<description><![CDATA[Gestion de envios Impackta]]></description>
+	<author><![CDATA[gabriel rese]]></author>
+	<tab><![CDATA[shipping_logistics]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+</module>
